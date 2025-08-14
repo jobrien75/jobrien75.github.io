@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/tab icon 2.png" /> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+
+    <!-- Site Title -->
+    <title> John O'Brien | Developer</title>
+    <!-- Coding keywords, username -->
+    <meta name="keywords" content="[jobrien76], [John O'Brien], javascript, python, html, css, C" />
+    <!-- Description -->
+    <meta name="description" content=" John O'Brien | Developer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="styles.scss" />
+    <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js" ></script>
+
+  </head>
+
+<!-- Main Page -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">John O'Brien</span>
+          <br/>
+          I'm a Physics-minded Software Engineer
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Learn More</a>
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px" src="assets/rocket.png" alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text fs-3">
+               I'm from Charleston, South Carolina and I build practical software across full-stack, ML, and robotics—and I'm working toward founding an aerospace R&D company after honing my skills in industry.
+              </p> 
+              <div class="about-wrapper__info-text">
+                <h1 class="about-title">Education</h1>
+                <ul class="about-wrapper__list ps-3 mb-3 fs-3"> 
+                  <li>University of Central Florida; B.S. Integrated Science & Technology; Minor: Computer Science; January 2023 - August 2025</li> 
+                  <li>St. Petersburg College; Associate of Arts Computer & Information Science; May 2021 - May 2022</li> 
+                </ul>
+              </div>
+              <div class="about-wrapper__info-text">
+                <h1 class="about-title">Goals</h1>
+                <ul class="about-wrapper__list ps-3 mb-3 fs-3"> 
+                  <li>Short term: Contribute as a software engineer in aerospace, R & D, biotech, or biosciences.</li> 
+                  <li>Expand expertise in machine learning and AI for real-world systems.</li> 
+                  <li>Shop end-to-end tools from data piplines and analytics to control and visualization.</li> 
+                  <li>Long term: Found an aerospace company in R & D pushing mineral of space minerals and lunar expansion</li> 
+                </ul>
+              </div> 
+
+              <div class="about-wrapper__info-text"> 
+                <h1 class="about-title">Hobbies</h1>
+                <ul class="about-wrapper__list ps-3 fs-3"> 
+                  <li>Backpacking; state & national parks.</li>
+                  <li>Beach & outdoor adventures</li>
+                  <li>Robotics projects & embedded tinkering</li> 
+                  <li>Website creation for small businesses</li> 
+                </ul>
+              </div>
+
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row align-items-center gx-lg-5">
+            <div class="col-xl-7 col-lg-7 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Orion Laboratory Management System</h3>
+                <div>
+                  <p class="mb-3">
+                     Replaced paper docs + manual Excel with a full-stack LIMS for daily lab operations. Built RBAC, audit trails, and guided workflows with a focus on operator UX and reliability.
+                  </p> 
+                  <p class="mb-2"><strong>What I coded:</strong> REST API (CRUD + validation), Postgres schema & queries, data importers from legacy Excel, session/auth, and a responsive UI for config & status views.</p> 
+                  <p class="mb-3"><strong>Stack:</strong> Node/Express, PostgreSQL, server-rendered UI/vanilla JS (plus small React components where helpful), Docker/Compose for local DB, ESLint/Prettier, basic tests.</p>
+                </div>
+                <!-- <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#https://github.com/jobrien75/Orion">Source Code</a> -->
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-sm-12 d-flex justify-content-lg-end">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt"> <!-- To set custom width style="--thumb-w:460px"-->
+                    <img alt="Orion Logo" class="img-fluid" src="assets/Orion.png"/>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- MoodReads - Mood-Based Book Discovery -->
+          <div class="row align-items-center gx-lg-5">
+            <div class="col-xl-7 col-lg-7 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title fs-1">Moodreads Reading Interface</h3>
+                <div>
+                  <p class="mb-3">
+                    A reading companion that scores your book in real time. MoodReads maps each chapter's tone—quiet, suspenseful, triumphant—to curated music and adjusts on the fly, so the audio matches the scene and you stay immersed in the story.
+                  </p> 
+                  <p class="mb-2"><strong>What I coded:</strong> React components, state mgmt, search/ranking logic, API layer with caching/retries, and basic testing; optional semantic search when enabled.</p>
+                  <p class="mb-3"><strong>Stack:</strong> React + Vite, TypeScript/JavaScript, Node/Express backend, SQL (Postgres/SQLite), Jest for tests, ESLint/Prettier, simple CI; deployable to Netlify/Vercel.</p>
+                </div>
+              <!--- <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">See Live</a> -->
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/jobrien75/Moodreads">Source Code</a>
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-sm-12 d-flex justify-content-lg-end">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt ms-lg-auto me-lg-0">
+                    <img alt="MoodReads Logo" class="img-fluid" src="assets/Moodreads logo.png"/>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row align-items-center gx-lg-5">
+            <div class="col-xl-7 col-lg-7 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Pioneer - Signal Setup</h3>
+                <div>
+                  <p class="mb-4">
+                    Replaced a legacy SharePoint + email workflow with a full-stack internal web app for power-plant signal setup and quality checks. 
+                    Built a SQL-backed API, schema-driven forms, CSV/Excel imports, and audit trails—wrapped in a Siemens-styled UI for clarity and speed.
+                  </p> 
+                  <p class="mb-2"><strong>What I coded:</strong> Database schema &amp; migrations, REST endpoints, validation rules, import pipeline from SharePoint/Excel, telemetry/status views, RBAC, and Siemens-themed components.</p>
+                  <p class="mb-3"><strong>Stack:</strong> React (Vite) front end with Siemens-inspired design, Node/Express API, SQL database (PostgreSQL/SQL Server), Excel/VBA helper for rapid QC, ESLint/Prettier, basic CI.</p>
+                </div>
+               <!-- <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">See Live</a> -->
+               <!--<a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">Source Code</a> -->
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-sm-12 d-flex justify-content-lg-end">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt ms-lg-auto me-lg-0">
+                    <img alt="Pioneer Logo" class="img-fluid" src="assets/Pioneer.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+<!-- **** Work Section **** -->
+    <section id="work">
+      <div class="container">
+        <h2 class="section-title load-hidden">Work</h2>
+        <div class="row work-wrapper">
+          <div class="col-md-6 col-sm-12"></div>
+          <div class="project-wrapper"><!-- reuse project spacing -->
+      <div class="row justify-content-center">
+        <div class="col-xl-8 col-lg-9 col-md-10">
+          <div class="about-wrapper__info-text">
+            <h3 class="about-title">Bosch — Robotics &amp; AGV Operations</h3>
+            <p class="text-muted mb-1">Charleston, SC • Internship</p>
+            <ul class="about-wrapper__list ps-3 mb-3 fs-3">
+              <li>Owned daily AGV/robotics ops during a high-need period.</li>
+              <li>Setup automated warehouses; SOPs, dashboards, quick Python scripts.</li>
+              <li>Improved reliability with checklists, alerting, and RCA notes.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-xl-8 col-lg-9 col-md-10">
+          <div class="about-wrapper__info-text">
+            <h3 class="about-title">Siemens Energy — Software Engineering Intern</h3>
+            <p class="text-muted mb-1">Power-plant analytics &amp; tooling</p>
+            <ul class="about-wrapper__list ps-3 mb-3 fs-3">
+              <li>Replaced legacy SharePoint workflow with a full-stack app (“Pioneer”).</li>
+              <li>Schema-driven forms/imports, validation, audit trails; Siemens-styled UI.</li>
+              <li>Excel/VBA macro for rapid QC; shipped telemetry/status views.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-xl-8 col-lg-9 col-md-10">
+          <div class="about-wrapper__info-text">
+            <h3 class="about-title">Projects</h3>
+            <ul class="about-wrapper__list ps-3 mb-3 fs-3">
+              <li><strong>Orion:</strong> LIMS/ops tool (Admin, Status Board, Workflows, Charting).</li>
+              <li><strong>MoodReads:</strong> reading companion; soundtrack follows chapter tone.</li>
+              <li><strong>Data Structures:</strong> Java skip list &amp; 2-3-4 tree implementations.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+      </div>
+    </section>
+    <!-- END Work Section -->
+
+
+<!-- **** TECHNOLOGIES **** -->
+<section id="tech">
+  <div class="container">
+    <h2 class="section-title dark-blue-text">Technologies</h2>
+
+    <h3 class="h1 fw-bold mt-5 mb-4">Languages</h3>
+    <div class="row g-4 tech-grid justify-content-center tech-group">
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-python-plain colored"></i><div>Python</div></div>
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-javascript-plain colored"></i><div>JavaScript</div></div>
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-typescript-plain colored"></i><div>TypeScript</div></div>
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-java-plain colored"></i><div>Java</div></div>
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-c-plain colored"></i><div>C</div></div>
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-html5-plain colored"></i><div>HTML</div></div>
+    </div>
+
+    <h3 class="h1 fw-bold mt-5 mb-4">Frameworks &amp; Tools</h3>
+    <div class="row g-4 tech-grid justify-content-center tech-group">
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-react-original colored"></i><div>React</div></div>
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-nodejs-plain colored"></i><div>Node/Express</div></div>
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-postgresql-plain colored"></i><div>PostgreSQL</div></div>
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-docker-plain colored"></i><div>Docker</div></div>
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-git-plain colored"></i><div>Git</div></div>
+     <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-pytorch-original colored"></i><div>PyTorch</div></div>
+</div>
+
+    <h3 class="h1 fw-bold mt-5 mb-4 text-center">Platforms &amp; OS</h3>
+    <div class="row g-4 tech-grid justify-content-center tech-group">
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-windows8-original"></i><div>Windows</div></div>
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-apple-original"></i><div>macOS</div></div>
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-linux-plain"></i><div>Linux</div></div>
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-visualstudio-plain"></i><div>VS Code</div></div>
+      <div class="col-6 col-md-4 col-lg-2 text-center"><i class="devicon-github-original"></i><div>GitHub</div></div>
+    </div>
+  </div>
+</section> 
+<!-- END TECH SECTION -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">Let's start building!</p>
+          <p class="contact-wrapper__text">johnny.johnobrien@gmail.com</p>
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/obrienjo76/" target="_blank" aria-label="LinkedIn">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/jobrien75" target="_blank" aria-label=""GitHub>
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <p class="footer__text">
+          © 2025 - By
+          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
+            >John O'Brien</a
+          >
+        </p>
+
+  
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+/* === TECH === */
+#tech { padding: 6rem 0; }
+#tech .tech-grid i { font-size: clamp(2.2rem, 1.6rem + 2vw, 4rem); display:block; line-height:1; opacity:.9; }
+#tech .tech-grid div { font-size: clamp(1rem, .95rem + .3vw, 1.15rem); margin-top: .25rem; }
+#tech .tech-grid i:hover { transform: translateY(-2px); opacity: 1; transition: transform .15s ease, opacity .15s ease; }
+
+/* Technologies: make icons and labels bigger (scoped to #tech) */
+#tech {
+  .section-title {
+    font-size: 4.5rem;
+  }
+
+  .tech-grid {
+    i {                           /* the <i class="devicon-…"> icons */
+      font-size: clamp(2.6rem, 1.4rem + 3vw, 4.2rem);
+      line-height: 1;
+      display: block;
+    }
+    div {                         /* the small label under each icon */
+      margin-top: .35rem;
+      font-size: clamp(1rem, .95rem + .4vw, 1.25rem);
+      line-height: 1.3;
+    }
+  }
+
+  /* add a little more vertical breathing room between items on small screens */
+  .row.g-4 { row-gap: 1.5rem; }
+}
