@@ -1,0 +1,14 @@
+# node / parcel
+node_modules/
+.parcel-cache/
+dist/
+docs/
+
+# logs & OS junk
+*.log
+.DS_Store
+Thumbs.db
+
+# env
+.env
+.env.*
